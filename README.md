@@ -34,4 +34,23 @@ Então, a partir de agora, esse conceito de pastas e arquivos que observamos na 
 
 ## Processos Internos
 
-- Usuário requisita a URL site.com.br/sobre
+- Usuário requisita a URL site.com.br/sobre ;
+- MVC verifica se essa rota está estabelecida;
+- MVC manda a requisição para o **Controller** da rota
+
+> Após o Controller receber a requisição, ele irá realizar o controle do que será feito. Ex: exibir uma página, exibir um JSON, não mostrar nada, etc... Ele será o **coração** do sistema.
+
+No nosso exemplo, queremos acessar a página **sobre**, então o MVC realizou os passos listados acima e então o Controller terá duas principais ações a serem realizadas.
+
+1. Carregar um View
+2. Chamar um Model
+
+Onde:
+
+> *VIEW* é a parte gráfica e ou visual de um sistema, e um *MODEL*, é uma classe diretamente relacionada com alguma tabela do banco de dados. Ex: usuarios. Teríamos um Model chamado **Usuario**, onde nessa classe ele recuperaria informações de usuário e mandaria para o View.
+
+Ficaríamos com esse flow:
+
+1. Controller (Base de tudo)
+2. Model (Informações do banco de dados)
+3. View (Apresentação)
