@@ -23,7 +23,7 @@ Entendemos que, na RAIZ desse servidor, há uma pasta chamada **algumacoisa** e,
 > No MVC, essa estrutura passa a ser relativa. Na estrutura MVC, tudo que vem após a / (barra), não necessariamente, a partir de agora, será uma pasta, um arquivo, etc... Podem ser apenas instruções para o site/sistema.
 
 Normalmente, a estrutura MVC, tem um arquivo inicial, que é o arquivo onde começa o sistema. Todo o sistema que é feito em MVC, começa a partir de um único arquivo. Ex: site.com.br/
-Vamos supor que nao raiz deste servidor, tem um arquivo chamado **index.php**. Ao invés de acessarmos site.com.br/index.php, não é necessário digitar o nome do arquivo, porque ele será carregado automaticamente.
+Vamos supor que na raiz deste servidor, tem um arquivo chamado **index.php**. Ao invés de acessarmos site.com.br/index.php, não é necessário digitar o nome do arquivo, porque ele será carregado automaticamente.
 
 > Vamos supor que acessamos a seguinte URL site.com.br/sobre
 
